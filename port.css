@@ -1,0 +1,182 @@
+@import 'utilities.css';
+
+body{
+    font-family: 'poppins',sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+}
+header{
+    background: #161616;
+    clip-path: polygon(0 0,100% 0,100% 100%,70% 88%,0 100%);
+    
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header nav .left a{
+    color:#ffffff;
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    align-items: center;  
+}
+header nav .left a:hover{
+    color:#3dcfdc ;
+}
+header nav{
+    padding: 2rem 0;
+}
+header nav .branding{
+    margin-right: 3rem;
+}
+.hero{
+    padding: 5rem 0;
+}
+.hero .left img{
+    width: 500px;
+    margin: -4rem;
+}
+.hero .right{
+    color: #ffffff;
+}
+.hero .right h6{
+    font-size: 1.6rem;
+    color: #3dcfdc;
+    margin-bottom: 0.5rem;
+}
+.hero .right h1{
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+.hero .right h1 span{
+    color: #3dcfdc;
+}
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+.hero .right{
+    margin: -7rem;
+}
+section{
+    padding: 6rem 0;
+}
+section.about .about-me-img{
+    height: 450px;
+    margin-bottom: 10rem;
+}
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+section.about h1 span{
+    color: #3dcfdc;
+}
+section.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+
+} 
+section.about p{
+    font-family: 'Lato' sans-serif;
+    color: #898989;
+    line-height: 1.8;
+    margin-bottom: .3rem;
+}
+section.about .social{
+    display: flex;
+}
+section.about .social{
+    background:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 250px;
+    height: 300px;
+    border-radius: 50px;
+    margin-right: 0.6rem; 
+    transition: all .3s ease;
+}
+section.about .social a:hover{
+    background: #3dcfdc;
+}
+section.about .social a img{
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+}
+
+
+.section-heading{
+    color:#070606 ;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 00.5rem;
+}
+.section-heading + h6{
+    color: #898989;
+    font-family: "lato",sans-serif;
+    margin-bottom: 8rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+.section-heading span{
+    color: #3dcfdc;
+}
+ .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 6rem;
+}
+section.services{
+    background: #f2f2f2;
+}
+section.services  .card-wrapper .card{
+    background: #ffffff;
+    padding: 3rem 2rem;
+    position: relative;
+    padding-top: 4.5rem;
+    text-align: center;
+    transition: all .5s ease;
+}
+section.services  .card-wrapper .card img{
+    position: absolute;
+    top: -3.5rem;
+    left: 50%;
+    width: 90px;
+    height: 90px;
+    transform: translate(-50%);
+    background: #3dcfdc;
+}
+section.services  .card-wrapper .card h2{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+section.services  .card-wrapper .card h2,p{
+    font-family: 'lato',sans-serif;
+    color: #898989;
+    line-height: 1.6;
+}
+section.services  .card-wrapper .card:hover{
+    background: #383d3d;   
+}
+section.services  .card-wrapper .card h2 p:hover{
+    color:#ffffff ;
+}
